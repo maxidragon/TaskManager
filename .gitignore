@@ -141,3 +141,5 @@ GitHub.sublime-settings
 .env
 
 db.sqlite3
+
+/staticfiles
