@@ -27,8 +27,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['taskmanager-production-e797.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://taskmanager-production-e797.up.railway.app']
 # Application definition
 
 INSTALLED_APPS = [
